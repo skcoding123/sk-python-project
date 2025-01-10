@@ -12,8 +12,17 @@ result = math.floor(x)
 print(result)
 
 
-#calculate circumference of a circle  (c = 2 pie r)
+#calculate circumference of a circle  (c = 2 pie r)   #round(circumference, 2) means the float no after . is round with 2 digit
 import math
+radius = input("Enter the radius of a circle")
+radius = float(input("Enter the radius of a circle"))
+circumference = 2 * math.pi * radius
+print(f"The circumference is: {circumference}")
+print(f"The circumference is: {round(circumference, 2)}cm")
+
+# Area of a circle A = pie r*2
+import
+
 
 
 
