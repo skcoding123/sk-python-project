@@ -1,7 +1,8 @@
 #import math   (import this module for mathematics operation)
 #math.sqrt(X)...square root of X   |   math.ceil(x)...round a no up   | math.floor(x)...round a no down
+#import math
 
-x = 9.9
+#x = 9.9
 
 #print(math.pi)
 #print(math.e)
@@ -21,7 +22,14 @@ x = 9.9
 #print(f"The circumference is: {round(circumference, 2)}cm")
 
 # Area of a circle A = pie r*2
-#import
+
+import math
+
+radius = float(input("Enter the radius of a circle: "))
+area = math.pi * pow(radius, 2)
+print(f"The area of the circle is: {area}")
+
+
 
 
 
